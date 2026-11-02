@@ -1,0 +1,19 @@
+# CCGS project configuration — single source of truth for project settings.
+# See .claude/docs/effects-map.md for full schema.
+
+schema_version: 1
+
+framework:
+  version: 1.2.0
+  last_upgraded: 2026-10-19
+
+project:
+  name: "Be Hoc Van Giao Dien Moi"
+  description: "Trò chơi học vần ao, eo vui nhộn dành cho học sinh tiểu học sử dụng Web Speech API"
+  platform: "web"
+  engine: "web"
+  language: "javascript"
+
+modes:
+  rigor: minimal
+  automation: guided
